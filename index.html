@@ -1,0 +1,89 @@
+<!-- /**
+ * @name: Assignement1
+ * @Course Code: SODV1201
+ * @class: Software Development Diploma program.
+ * @author: 457647 - Yosita Jasamut
+ */ -->
+
+<!DOCTYPE html>
+
+<head>
+    <title>Yosita - Q1 Weather using API</title>
+    <script src="script.js"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+        }
+
+        .logo {
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .box {
+            width: 100%;
+            color: white;
+            font-weight: bold;
+
+        }
+
+        .temperature {
+            font-size: 10vw;
+            font-weight: bold;
+        }
+
+        .center {
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            background-image: url('calgary.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .bg {
+            background-color: rgb(0, 0, 0, 0.7);
+            height: 90vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0px 20px 0px;
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">Calgary Weather</div>
+    <div class="center">
+        <div class="bg">
+            <div class="box">
+                <div class="temperature"><a id="temperature"></a>°C</div>
+                <div id="summary"></div><br>
+                <div>WIND <a id="wind"></a></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p style="color:dodgerblue;">Developed by 457647 - Yosita Jasamut © 2024</p>
+        <p><i>Student of Software Development at Bow Valley College</i></p>
+    </footer>
+
+</body>
+
+</html>
